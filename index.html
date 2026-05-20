@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Coulomb King</title>
+<title>Coulomb Strike</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
@@ -47,8 +47,8 @@
     align-items: center;
     gap: 14px;
   }
-  .crown {
-    width: 64px;
+  .bolt {
+    width: 42px;
     height: auto;
     display: block;
     flex-shrink: 0;
@@ -254,25 +254,24 @@
 <div class="lab">
   <header>
     <div class="logo">
-      <svg class="crown" viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- Crown body: 3-point coronet -->
-        <path d="M 8 55 L 18 25 L 36 40 L 60 10 L 84 40 L 102 25 L 112 55 Z"
-              fill="#c8302f" stroke="#1a1f2e" stroke-width="2.5" stroke-linejoin="round"/>
-        <!-- Band -->
-        <rect x="6" y="55" width="108" height="9" fill="#c8302f" stroke="#1a1f2e" stroke-width="2.5"/>
-        <!-- Band pearls -->
-        <circle cx="30" cy="59.5" r="2" fill="#fffaf0"/>
-        <circle cx="60" cy="59.5" r="2" fill="#fffaf0"/>
-        <circle cx="90" cy="59.5" r="2" fill="#fffaf0"/>
-        <!-- Side jewels -->
-        <circle cx="18" cy="25" r="3.5" fill="#1a1f2e"/>
-        <circle cx="102" cy="25" r="3.5" fill="#1a1f2e"/>
-        <!-- Center jewel — the + charge -->
-        <circle cx="60" cy="10" r="8" fill="#fffaf0" stroke="#1a1f2e" stroke-width="2.5"/>
-        <line x1="55" y1="10" x2="65" y2="10" stroke="#c8302f" stroke-width="3.5" stroke-linecap="round"/>
-        <line x1="60" y1="5"  x2="60" y2="15" stroke="#c8302f" stroke-width="3.5" stroke-linecap="round"/>
+      <svg class="bolt" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Lightning bolt -->
+        <path d="M 65 4 L 12 64 L 46 64 L 28 126 L 90 56 L 56 56 Z"
+              fill="#c8302f"
+              stroke="#1a1f2e"
+              stroke-width="4"
+              stroke-linejoin="round"
+              stroke-linecap="round"/>
+        <!-- Inner highlight (subtle bright streak) -->
+        <path d="M 60 12 L 28 56 L 50 56"
+              fill="none"
+              stroke="#fffaf0"
+              stroke-width="2.5"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              opacity="0.75"/>
       </svg>
-      <h1>Coulomb <em>King</em></h1>
+      <h1>Coulomb <em>Strike</em></h1>
     </div>
     <div class="header-stats">
       <div class="stat">
